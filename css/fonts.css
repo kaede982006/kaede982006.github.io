@@ -1,5 +1,5 @@
-@import url('https://cdn.jsdelivr.net/gh/quiple/hbios-sys@latest/hbios-sys.css');
+@import url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css');
 
 body {
-	font-family: HBIOS-SYS;
+	font-family: Hack;
 }
