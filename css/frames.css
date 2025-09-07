@@ -1,26 +1,58 @@
+* {
+	margin: 0;
+}
+header {
+	margin: 10px;
+	padding: 10px;
+	border-radius:40px;
+	background-color:#FFCCE6;
+	border: 2px solid #000000;
+}
 section {
 	padding: 20px;
-	margin: 10px 0 10px;
+	margin: 10px;
 	border: 2px solid #000000;
 	border-radius: 30px;
 }
 
 article {
-	margin: 10px 0 10px;
+	margin: 10px;
 	padding: 30px;
 	border: 2px solid #000000;
 }
-
-.code {
+.code_border {
 	background-color: black;
 	color: white;
 	border-radius: 30px;
 	padding: 20px;
 }
+.intro_border {
+	border-radius: 30px;
+	background-color: white;
+	padding: 20px;
+	border: 2px solid #000000;
+}
 div.row {
 	justify-content: space-between;
 	display: flex;
 }
+div.default_border {
+	border: 2px solid #000000;
+	border-radius:10px;
+	padding: 20px;
+	background-color: #D4B886;
+}
 .menu_element {
 	padding: 10px 0;
+}
+#introduction {
+	display: grid;
+	grid-template-rows: auto;
+}
+#introduction .intro_element {
+	padding: 20px;
+	margin: 10px;
+}
+.section-default-color {
+	background-color: white;
 }
