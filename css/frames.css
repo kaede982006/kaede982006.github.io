@@ -8,6 +8,9 @@ header {
 	background-color:#FFCCE6;
 	border: 2px solid #000000;
 }
+header img {
+margin: 0 10px;
+}
 section {
 	padding: 20px;
 	margin: 10px;
@@ -32,15 +35,29 @@ article {
 	padding: 20px;
 	border: 2px solid #000000;
 }
-div.row {
-	justify-content: space-between;
-	display: flex;
-}
 div.default_border {
 	border: 2px solid #000000;
 	border-radius:10px;
 	padding: 20px;
 	background-color: #D4B886;
+}
+div.row {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+div.right_col {
+	float: right;
+	vertical-align: middle;
+	text-align: right;
+	margin-left: 300px;
+padding: auto;
+}
+div.left_col {
+	float: left;
+	vertical-align: middle;
+	text-align: left;
+	margin-right:300px;
+padding: auto;
 }
 .menu_element {
 	padding: 10px 0;
@@ -53,6 +70,13 @@ div.default_border {
 	padding: 20px;
 	margin: 10px;
 }
-.section-default-color {
-	background-color: white;
+.padding_for_language_name {
+	padding:20px;
+}
+col.centered_menu_element {
+	width: 100px;
+}
+td.text-aligner {
+	text-align: center;
+	font-size: 10px;
 }

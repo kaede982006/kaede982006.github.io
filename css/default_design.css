@@ -1,6 +1,12 @@
 .semi_mute {
 	color: gray;
 }
-.padding_for_language_name {
-	padding:20px;
+
+.section-default-color {
+	background-color: white;
+}
+
+a {
+color: #BD337B;
+text-decoration-line: none;
 }
