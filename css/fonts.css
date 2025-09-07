@@ -1,5 +1,14 @@
 @import url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css');
+@import url('//fonts.googleapis.com/earlyaccess/nanumpenscript.css');
 
 body {
 	font-family: Hack;
+}
+.text_language_name {
+	text-align: center;
+	font-size: 40px;
+	font-family: Nanum Pen Script;
+}
+.semi_mute {
+	color: gray;
 }

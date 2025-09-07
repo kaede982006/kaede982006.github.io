@@ -1,0 +1,26 @@
+section {
+	padding: 20px;
+	margin: 10px 0 10px;
+	border: 2px solid #000000;
+	border-radius: 30px;
+}
+
+article {
+	margin: 10px 0 10px;
+	padding: 30px;
+	border: 2px solid #000000;
+}
+
+.code {
+	background-color: black;
+	color: white;
+	border-radius: 30px;
+	padding: 20px;
+}
+div.row {
+	justify-content: space-between;
+	display: flex;
+}
+.menu_element {
+	padding: 10px 0;
+}

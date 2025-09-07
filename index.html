@@ -1,51 +1,62 @@
 <!DOCTYPE html>
-<html lang="ko">
-	<head>
-		<meta charset="UTF-8">
-		<title>카에데의 블로그</title>
+<html lang="ko"> <head> <meta charset="UTF-8"> <title>카에데의 블로그</title>
 		<link rel="stylesheet" href="css/fonts.css" />
+		<link rel="stylesheet" href="css/resources.css" />
+		<link rel="stylesheet" href="css/frames.css" />
 		<link rel="icon" href="img/logo/favicon.png"/>
 		<link rel="apple-touch-icon" href="img/logo/favicon.png"/>
 		<base target="_blank">
 	</head>
 	<body>
 		<header>
-			<h1>Kaede's Blog!</h1>
-			<a href="https://www.instagram.com/kaede982006/?next=%2F">인스타그램</a> 
-			<a href="https://github.com/kaede982006">깃허브</a>
+			<div class="row">
+				<div>
+					<img src="img/logo/kaede_logo.png"></img>
+					<a href="https://www.instagram.com/kaede982006/?next=%2F"><img class="default_logo" src="img/logo/instagram_logo.png"></img></a> 
+					<a href="https://github.com/kaede982006"><img class="default_logo" src="img/logo/github_logo.png"></img></a>
+				</div>
+				<div class="right">
+					<img class="default_logo" src="img/menu_element/book.png"></img>
+					<img class="default_logo" src="img/menu_element/blog.png"></img>
+					<img width="50px" id="my_profile" src="https://avatars.githubusercontent.com/u/226330576?v=4"></img>
+				</div>
+			</div>
 		</header>
-		<hr>
 		<main>
 			<article>
 			<h2>좋아하고 활용하는 프로그래밍 언어</h2>
-			<hr>
 				<section>
-				<h3>C</h3>
+				<h3 class="text_language_name">C <span class="semi_mute">Programming Language</div></h3>
+					<div class="code">
 					<code>
 					#include &lt;stdio.h&gt;<br><br>
 					int main() {<br>
 					&emsp; printf("Hello World!");<br>
 					&emsp; return 0;<br>
-					</code>
 					}<br>
+					</code>
+					</div>
+
 				</section>
-				<hr>
 				<section>
-				<h3>C++</h3>
+				<h3 class="text_language_name">C++ <span class="semi_mute">Programming Language</div></h3>
+				<div class="code">
 					<code>
 					#include &lt;iostream&gt;<br><br>
 					int main() {<br>
 					&emsp; std::cout &lt;&lt; "Hello World!"; &lt;&lt; std::endl;<br>
 					&emsp; return 0;<br>
 					}<br>
+					</code>
+				</div>
 				</section>
-				<hr>
 				<section>
-				<h3>Assembly</h3>
+				<h3 class="text_language_name">Assembly <span class="semi_mute">Programming Language</div></h3>
+					<div class="code">
 					<code>
 					section .text<br>
 					global _start<br>
-					_start:<br>
+					_astart:<br>
 					&emsp;	mov edx, MSGLEN<br>
 					&emsp;	mov ecx, MSG<br>
 					&emsp;	mov ebx, 1<br>
@@ -59,9 +70,9 @@
 					&emsp;	MSG db "Hello World!", 0xA<br>
 					&emsp;	MSGLEN equ $-MSG<br>
 					</code>
+					</div>
 				</section>
 			</article>
-			<hr>
 			<article>
 				<section>
 					<h2>소개글(2025)</h2>
@@ -88,10 +99,8 @@
 						<p>제가 좋아하는 게임은 지오메트리 대쉬(Geometry Dash)이며, 현재 클리어한 맵 중 가장 어려운 맵은 Bloodbath입니다. 현재 Bloodbath는 익스트림 데몬이며, 익스트림 데몬은 게임 내에서 최고 난이도로 분류되는 난이도입니다. Bloodbath는 2015년에 순위표에서 1위를 차지한 익스트림 데몬입니다. 현재는 상위권 데몬인 Sonic Wave에 도전하고 있습니다. 지오메트리 대쉬에서 달성한 맵 기록을 프로그래스라고 하고, 현재 최고 프로그래스는 49-96%, 42-93%입니다.</p>
 
 				</section>
-				<hr>
-
 				<section>
-
+					<h2>To Be Continued</h2>
 				</section>
 			</article>
 		</main>
