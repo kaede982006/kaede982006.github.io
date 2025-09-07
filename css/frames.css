@@ -49,14 +49,14 @@ div.right_col {
 	float: right;
 	vertical-align: middle;
 	text-align: right;
-	margin-left: 300px;
+	margin: auto;
 padding: auto;
 }
 div.left_col {
 	float: left;
 	vertical-align: middle;
 	text-align: left;
-	margin-right:300px;
+	margin: auto;
 padding: auto;
 }
 .menu_element {
