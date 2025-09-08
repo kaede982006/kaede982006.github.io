@@ -43,12 +43,18 @@ div.default_border {
 }
 div.row {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 }
 div.right_col {
 	float: right;
 	vertical-align: middle;
 	text-align: right;
+	margin: auto;
+padding: auto;
+}
+div.center_col {
+	vertical-align: middle;
+	text-align: center;
 	margin: auto;
 padding: auto;
 }
