@@ -58,12 +58,28 @@ div.center_col {
 	margin: auto;
 padding: auto;
 }
+
 div.left_col {
 	float: left;
 	vertical-align: middle;
 	text-align: left;
 	margin: auto;
 padding: auto;
+}
+div.book_right_col {
+	float: right;
+	vertical-align: middle;
+	text-align: right;
+	margin: auto;
+	width:30%;
+	padding: auto;
+}
+div.book_left_col {
+	vertical-align: middle;
+	text-align: center;
+	margin: auto;
+	padding: auto;
+	width: 70%;
 }
 .menu_element {
 	padding: 10px 0;

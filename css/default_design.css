@@ -10,3 +10,7 @@ a {
 color: #BD337B;
 text-decoration-line: none;
 }
+.book_style {
+	font-weight: bold;
+	font-size: 150%;
+}
