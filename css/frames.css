@@ -66,20 +66,13 @@ div.left_col {
 	margin: auto;
 padding: auto;
 }
-div.book_right_col {
-	float: right;
-	vertical-align: middle;
-	text-align: right;
-	margin: auto;
-	width:30%;
-	padding: auto;
+div.book_column {
+		display: grid;
+	grid-template-columns: 1fr 3fr;
 }
-div.book_left_col {
-	vertical-align: middle;
-	text-align: center;
-	margin: auto;
-	padding: auto;
-	width: 70%;
+div.book_row {
+	display: grid;
+	grid-template-rows: 1fr 3fr;
 }
 .menu_element {
 	padding: 10px 0;
